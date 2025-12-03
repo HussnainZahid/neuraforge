@@ -1,10 +1,11 @@
-import { Brain, Code, BarChart3, MessageSquare, Globe, Zap, Palette, Shield } from 'lucide-react';
+import { Brain, Code, BarChart3, MessageSquare, Globe, Palette } from 'lucide-react';
+import React from 'react';
 
 export interface Service {
   title: string;
   slug: string;
   description: string;
-  icon: React.ReactNode;
+  icon: React.ReactNode; // Use JSX element directly
   image?: string;
   features: string[];
   benefits: string[];
